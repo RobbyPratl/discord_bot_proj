@@ -44,6 +44,5 @@ function generateEncoded(name,desc,image,type = null) {
 
 }
 
-encoded = generateEncoded("nametest","desctest","imagetest", "link")
 
-console.log(encoded)
+module.exports = {convertJsonToBase64,convertImageToBase64,generateJSON,generateEncoded};

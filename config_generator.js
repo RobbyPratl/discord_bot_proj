@@ -13,4 +13,6 @@ function generateEnvString(API_KEY, PRIV_KEY){
 });
 }
 
-generateEnvString("APIKEYTEST","PRIV_KEY")
+module.exports = {
+  generateEnvString
+};

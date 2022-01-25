@@ -1,12 +1,14 @@
 {
-  "name": "discordbotproj",
+  "name": "encodedtools",
   "version": "1.0.0",
-  "description": "",
+  "description": "tools for encoding",
   "main": "hardhat.config.js",
   "dependencies": {
     "@nomiclabs/hardhat-waffle": "^2.0.2",
     "dotenv": "^14.3.0",
-    "hardhat": "^2.8.3"
+    "encoded": "^1.0.0",
+    "hardhat": "^2.8.3",
+    "tools": "0.0.0"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
@@ -21,8 +23,8 @@
     "url": "git+https://github.com/RobbyPratl/discord_bot_proj.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "robbypratl",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/RobbyPratl/discord_bot_proj/issues"
   },
