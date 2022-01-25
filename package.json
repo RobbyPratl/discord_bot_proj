@@ -1,0 +1,26 @@
+{
+  "name": "discordbotproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hardhat.config.js",
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "dotenv": "^14.3.0",
+    "hardhat": "^2.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobbyPratl/discord_bot_proj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobbyPratl/discord_bot_proj/issues"
+  },
+  "homepage": "https://github.com/RobbyPratl/discord_bot_proj#readme"
+}
