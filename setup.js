@@ -1,18 +1,15 @@
-const config = require("./config_generator");
-
+const config = require("./env_generator");
 // pass in your api key, then your private key
 // open a terminal in this directory and type 
 // "node setup.js"
 
-const API_KEY = "your alchemy api key";
-const PRIVATE_KEY = "your ethereum wallet private key";
 
-config.generateEnvString(API_KEY,PRIVATE_KEY);
-console.log("deleting self");
-const path = "./setup.js";
-try {
-  fs.unlinkSync(path)
-  //file removed
-} catch(err) {
-  console.error(err)
+
+const API_KEY = "https://eth-rinkeby.alchemyapi.io/v2/kN8L0dmJ48DsVLX9Yiyz_CVq0cTcdbIa";
+const PRIVATE_KEY = "b5c409b10a334a13f416854bdb55cec6a58a59a2c85b5ef9e506345b84da430f";
+
+function setup(API_KEY, PRIVATE_KEY){
+  config.generateEnvString(API_KEY,PRIVATE_KEY)
 }
+
+setup(API_KEY,PRIVATE_KEY)

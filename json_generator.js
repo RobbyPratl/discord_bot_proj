@@ -46,3 +46,5 @@ function generateEncoded(name,desc,image,type = null) {
 
 
 module.exports = {convertJsonToBase64,convertImageToBase64,generateJSON,generateEncoded};
+
+

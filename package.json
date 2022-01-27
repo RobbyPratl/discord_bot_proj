@@ -5,6 +5,7 @@
   "main": "hardhat.config.js",
   "dependencies": {
     "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/contracts": "^4.4.2",
     "dotenv": "^14.3.0",
     "encoded": "^1.0.0",
     "hardhat": "^2.8.3",

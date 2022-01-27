@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({ path: './process.env' })
 require("@nomiclabs/hardhat-waffle");
 
 module.exports = {
